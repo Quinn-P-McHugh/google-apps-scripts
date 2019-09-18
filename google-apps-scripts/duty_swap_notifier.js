@@ -1,5 +1,8 @@
 /**
- * Sends custom duty swap confirmation emails to RA staff members that submit the duty swap Google Form.
+ * Sends custom duty swap confirmation emails to RA staff members once the duty swap Google Form.
+ *
+ * For this script to function correctly, an "On Form Submit" trigger must be set up through Google Forms. For more
+ * information, please visit the following help page: https://developers.google.com/apps-script/guides/triggers/events#form-submit_4
  */
 
 /**
