@@ -1,4 +1,8 @@
 /**
+ * Sends custom duty swap confirmation emails to RA staff members that submit the duty swap Google Form.
+ */
+
+/**
  * Input RA/ARD email addresses here using the syntax shown. 
  *
  * Please note: RA/ARD names listed here MUST match the RA/ARD names 
