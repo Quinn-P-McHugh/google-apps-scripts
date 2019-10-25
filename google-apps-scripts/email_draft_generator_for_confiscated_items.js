@@ -1,13 +1,11 @@
 /**
  * Generates Gmail drafts to remind students to pick up their confiscated items based on data that was
  * previously inputted into a confiscated items spreadsheet.
- *
- * @version 1.0
  */
 function generateGmailDrafts() {
   // -=-=-=- USER-SPECIFIED VARIABLES -=-=-=-
   // The URL of the Google spreadsheet containing the list of confiscated items and all associated student data
-  var sheetURL = "https://docs.google.com/spreadsheets/d/1PggZQl15XqiHlCKz-RRMHVs_VRIZTUntGhMnfT1dEeY/edit?usp=sharing"
+  var sheetURL = ""
   
   // Spreadsheet column numbers
   var roomNumCol = letterToColumn('E');            // The index of the column containing the students' room number
